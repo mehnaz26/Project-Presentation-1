@@ -1,0 +1,682 @@
+
+  /* 
+    ##Device = Smartphones Mobiles (galaxifold)
+    ##Screen = B/w 279px to 319px
+  */
+  
+  @media (min-width: 279px) and (max-width: 319px) {
+    
+    /* CSS */
+
+    .top-header .info {
+        text-align: center;
+    }
+ .top-header .social-icons {
+   text-align: center;
+} 
+
+
+.slider .carousel-inner .carousel-item .carousel-caption{
+    bottom: 0%;
+    display: block !important;
+    text-align: center;
+}
+
+.slider .carousel-inner .carousel-item .carousel-caption h2{
+    font-size: 10px;
+    line-height: 20px;
+}
+
+.slider .carousel-inner .carousel-item .carousel-caption p {
+    font-size: 9px;
+    line-height: 19px;
+    margin: 0px 0px 0px 18px;
+    
+}
+.slider .carousel-inner .carousel-item .carousel-caption .btn-success {
+    padding: 5px 10px;
+    font-size: 12px;
+   line-height: 22px;
+   margin: 12px 0px 0px 12px;
+   
+}
+
+.slider .carousel-inner .carousel-item .w-100{
+    height: 250px;
+}
+
+.articles {
+    padding: 0px 0px 0px 5px;
+}
+ 
+.articles h3 {
+    font-size: 15px;
+    line-height: 25px;
+    
+}
+.articles p {
+    font-size: 8px;
+    line-height: 18px;
+   
+}
+.articles .row .btn-success {
+    padding: 5px 10px;
+    font-size: 10px;
+    letter-spacing: 1px;
+    margin: 5px 0px 0px 5px ;
+}
+
+
+.feature {
+    padding: 5px 5px 5px 15px;
+}
+.feature .feature-title h2{
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: 1px;
+}
+
+.feature .feature-title p {
+    font-size: 5px;
+    line-height: 15px;
+   
+   
+}
+.feature .row .col-lg-6 h5 {
+    font-size: 9px;
+    line-height: 19px;
+}
+
+.feature .row .col-lg-6 p {
+    font-size: 5px;
+    line-height: 15px;
+}
+.about-us{
+    padding: 0px 0px 5px;
+}
+
+.about-us .about-title h3{
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.about-us .about-title p{
+    font-size: 5px;
+    line-height: 15px;
+  
+}
+.about-us .company h3{
+    font-size: 12px;
+    line-height: 22px;
+}
+.about-us .company p{
+    font-size: 5px;
+    line-height: 15px;
+}
+
+.about-us .company .btn-success{
+    padding: 5px 10px;
+    font-size: 8px;
+    line-height: 18px;
+}
+
+.services{
+    padding: 0px 0px 5px;
+}
+
+
+.services .services-title h2{
+    font-size: 10px;
+    line-height: 20px;
+}
+
+.services .services-title p{
+    font-size: 5px;
+    line-height: 15px;
+}
+
+.services .row .col-lg-6 h5 {
+    font-size: 9px;
+    line-height: 19px;
+}
+
+.services .row .col-lg-6 .col-md-10 p{
+    font-size: 5px;
+    line-height: 15px;
+}
+.portfolio .portfolio-title h2{
+    font-size: 10px;
+    line-height:20px ;
+}
+.portfolio .portfolio-title p {
+    font-size: 5px;
+    line-height: 15px;
+}
+.fun-fact .inner-fun {
+    margin: 0px 0px 40px;
+    
+}
+
+
+.team .team-title h2{
+    font-size: 10px;
+    line-height: 20px;
+}
+.team .team-title p{
+    font-size: 5px;
+    line-height: 15px;
+}
+
+.team .inner-image h4{
+    font-size: 8px;
+    line-height: 18px;
+}
+
+.team .inner-image p{
+    font-size: 5px;
+    line-height: 15px;
+}
+
+.contact{
+    padding: 10px 0px;
+}
+.contact .contact-title h3{
+    font-size: 12px;
+    line-height: 22px;
+}
+
+.contact .contact-title p {
+    font-size: 5px;
+    line-height: 15px;
+}
+
+.footer .social-icons{
+    text-align: center;
+}
+
+  }
+
+/* css end */
+
+    /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
+    .top-header .info {
+        text-align: center;
+    }
+ .top-header .social-icons {
+   text-align: center;
+} 
+
+.slider .carousel-inner .carousel-item .carousel-caption{
+    bottom: 0%;
+    display: block !important;
+}
+
+.slider .carousel-inner .carousel-item .carousel-caption h2{
+    font-size: 6px;
+    line-height: 16px;
+}
+
+.slider .carousel-inner .carousel-item .carousel-caption p {
+    font-size: 9px;
+    line-height: 19px;
+    margin: 0px 0px 0px 18px;
+}
+.slider .carousel-inner .carousel-item .carousel-caption .btn-success {
+    padding: 5px 10px;
+    font-size: 12px;
+   line-height: 22px;
+   margin: 12px 0px 0px 12px;
+   
+}
+
+
+.articles {
+    padding: 0px 0px 0px 5px;
+}
+
+.articles h3 {
+    font-size: 22px;
+    line-height: 32px;
+    
+}
+.articles p {
+    font-size: 5px;
+    line-height: 15px;
+   
+}
+.articles .row .btn-success {
+    padding: 5px 10px;
+    font-size: 10px;
+    letter-spacing: 1px;
+    margin: 5px 0px 0px 15px ;
+}
+
+.feature {
+    padding: 5px 5px 5px 15px;
+}
+.feature .feature-title h2{
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: 1px;
+}
+
+.feature .feature-title p {
+    font-size: 5px;
+    line-height: 15px;
+   
+   
+}
+.feature .row .col-lg-6 h5 {
+    font-size: 9px;
+    line-height: 19px;
+}
+
+.feature .row .col-lg-6 p {
+    font-size: 5px;
+    line-height: 15px;
+}
+
+.about-us{
+    padding: 0px 0px 5px;
+}
+
+.about-us .about-title h3{
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.about-us .about-title p{
+    font-size: 5px;
+    line-height: 15px;
+  
+}
+.about-us .company h3{
+    font-size: 12px;
+    line-height: 22px;
+}
+.about-us .company p{
+    font-size: 5px;
+    line-height: 15px;
+}
+
+.about-us .company .btn-success{
+    padding: 5px 10px;
+    font-size: 8px;
+    line-height: 18px;
+}
+
+.services{
+    padding: 0px 0px 5px;
+}
+
+
+.services .services-title h2{
+    font-size: 10px;
+    line-height: 20px;
+}
+
+.services .services-title p{
+    font-size: 5px;
+    line-height: 15px;
+}
+
+.services .row .col-lg-6 h5 {
+    font-size: 9px;
+    line-height: 19px;
+}
+
+.services .row .col-lg-6 .col-md-10 p{
+    font-size: 5px;
+    line-height: 15px;
+}
+.portfolio .portfolio-title h2{
+    font-size: 10px;
+    line-height:20px ;
+}
+.portfolio .portfolio-title p {
+    font-size: 5px;
+    line-height: 15px;
+}
+.fun-fact .inner-fun {
+    margin: 0px 0px 40px;
+    
+}
+
+.team .team-title h2{
+    font-size: 10px;
+    line-height: 20px;
+}
+.team .team-title p{
+    font-size: 5px;
+    line-height: 15px;
+}
+
+.team .inner-image h4{
+    font-size: 8px;
+    line-height: 18px;
+}
+
+.team .inner-image p{
+    font-size: 5px;
+    line-height: 15px;
+}
+
+.contact{
+    padding: 10px 0px;
+}
+.contact .contact-title h3{
+    font-size: 12px;
+    line-height: 22px;
+}
+
+.contact .contact-title p {
+    font-size: 5px;
+    line-height: 15px;
+}
+
+.footer .social-icons{
+    text-align: center;
+}
+
+
+.owl .owl-carousel {
+    width: 100%;
+    padding: 80px 0px 0px;
+}
+
+ 
+  }
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+
+    .top-header .info {
+        text-align: center;
+    }
+ .top-header .social-icons {
+   text-align: center;
+} 
+
+.slider .carousel-inner .carousel-item .carousel-caption{
+    bottom: 20%;
+    display: block!important;
+  } 
+
+
+  .slider .carousel-inner .carousel-item .carousel-caption h2 {
+    font-size: 16px;
+    line-height: 26px;
+    
+}
+
+.slider .carousel-inner .carousel-item .carousel-caption p {
+    font-size: 6px;
+    line-height: 16px;
+    font-weight: 500;
+    margin: 30px 0px;
+}
+.slider .carousel-inner .carousel-item .carousel-caption .btn-success {
+padding: 5px 10px;
+font-size: 8px;
+letter-spacing: 1px;
+}
+.articles {
+    padding: 0px 0px 0px 5px;
+}
+
+.articles h3 {
+    font-size: 32px;
+    line-height: 42px;
+    
+}
+.articles p {
+    font-size: 8px;
+    line-height: 18px;
+   
+}
+.articles .row .btn-success {
+    padding: 5px 10px;
+    font-size: 10px;
+    letter-spacing: 1px;
+    margin: 5px 0px 0px 5px ;
+}
+.feature {
+    padding: 5px 5px 5px 15px;
+}
+.feature .feature-title h2{
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: 1px;
+}
+
+.feature .feature-title p {
+    font-size: 5px;
+    line-height: 15px;
+   
+   
+}
+.feature .row .col-lg-6 h5 {
+    font-size: 9px;
+    line-height: 19px;
+}
+
+.feature .row .col-lg-6 p {
+    font-size: 5px;
+    line-height: 15px;
+}
+
+.about-us{
+    padding: 0px 0px 5px;
+}
+
+.about-us .about-title h3{
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.about-us .about-title p{
+    font-size: 5px;
+    line-height: 15px;
+  
+}
+.about-us .company h3{
+    font-size: 12px;
+    line-height: 22px;
+}
+.about-us .company p{
+    font-size: 5px;
+    line-height: 15px;
+}
+
+.about-us .company .btn-success{
+    padding: 5px 10px;
+    font-size: 8px;
+    line-height: 18px;
+}
+
+.services{
+    padding: 0px 0px 5px;
+}
+
+
+.services .services-title h2{
+    font-size: 10px;
+    line-height: 20px;
+}
+
+.services .services-title p{
+    font-size: 5px;
+    line-height: 15px;
+}
+
+.services .row .col-lg-6 h5 {
+    font-size: 9px;
+    line-height: 19px;
+}
+
+.services .row .col-lg-6 .col-md-10 p{
+    font-size: 5px;
+    line-height: 15px;
+}
+.portfolio .portfolio-title h2{
+    font-size: 10px;
+    line-height:20px ;
+}
+.portfolio .portfolio-title p {
+    font-size: 5px;
+    line-height: 15px;
+}
+.fun-fact .inner-fun {
+    margin: 0px 0px 40px;
+    
+}
+
+
+.team .team-title h2{
+    font-size: 10px;
+    line-height: 20px;
+}
+.team .team-title p{
+    font-size: 5px;
+    line-height: 15px;
+}
+
+.team .inner-image h4{
+    font-size: 8px;
+    line-height: 18px;
+}
+
+.team .inner-image p{
+    font-size: 5px;
+    line-height: 15px;
+}
+
+.contact{
+    padding: 10px 0px;
+}
+.contact .contact-title h3{
+    font-size: 12px;
+    line-height: 22px;
+}
+
+.contact .contact-title p {
+    font-size: 5px;
+    line-height: 15px;
+}
+
+.footer .social-icons{
+    text-align: center;
+}
+
+ .owl .owl-carousel {
+    padding: 20px  0px;
+  }
+
+
+
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+
+    .top-header .info {
+        text-align: center;
+    }
+ .top-header .social-icons {
+   text-align: center;
+} 
+
+.slider .carousel-inner .carousel-item .carousel-caption{
+    bottom: 20%;
+    display: block!important;
+  } 
+
+
+  .slider .carousel-inner .carousel-item .carousel-caption h2 {
+    font-size: 16px;
+    line-height: 26px;
+    
+}
+
+.slider .carousel-inner .carousel-item .carousel-caption p {
+    font-size: 6px;
+    line-height: 16px;
+    font-weight: 500;
+    margin: 30px 0px;
+}
+.slider .carousel-inner .carousel-item .carousel-caption .btn-success {
+padding: 5px 10px;
+font-size: 8px;
+letter-spacing: 1px;
+}
+
+.articles {
+    padding: 0px 0px 0px 5px;
+}
+
+.articles h3 {
+    font-size: 32px;
+    line-height: 42px;
+    
+}
+.articles p {
+    font-size: 8px;
+    line-height: 18px;
+   
+}
+.articles .row .btn-success {
+    padding: 5px 10px;
+    font-size: 10px;
+    letter-spacing: 1px;
+    margin: 5px 0px 0px 5px ;
+}
+.feature {
+    padding: 5px 5px 5px 15px;
+}
+.feature .feature-title h2{
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: 1px;
+}
+
+.feature .feature-title p {
+    font-size: 5px;
+    line-height: 15px;
+   
+   
+}
+.feature .row .col-lg-6 h5 {
+    font-size: 9px;
+    line-height: 19px;
+}
+
+.feature .row .col-lg-6 p {
+    font-size: 5px;
+    line-height: 15px;
+}
+}
+
+
+  }
+
+
+
+
+

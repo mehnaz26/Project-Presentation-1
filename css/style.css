@@ -1,0 +1,674 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Lato', sans-serif;
+}
+a,a:hover{
+    text-decoration: none;
+}
+
+/* header code start */
+
+.header-section{
+    width: 100%;
+}
+.top-header{
+    width: 100%;
+    padding: 10px 0px;
+    background: #f5f7fa ;
+}
+.top-header .info{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+.top-header .info li{
+    list-style: none;
+    display: inline-block;
+}
+.top-header .info li a{
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0px 0px 0px 15px;
+    color: #506a85
+}
+.top-header .info li a .fa{
+    margin: 0px 5px 0px 0px;
+   
+}
+.top-header .info li a:hover, 
+ .top-header .info li a:focus{
+color: #00bc9c;
+transition: 1s case-in;
+}
+.top-header .social-icons{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    text-align: right;
+}
+.top-header .social-icons li{
+    list-style: none;
+    display: inline-block;
+}
+.top-header .social-icons li a{
+    display: block;
+    text-decoration: none;
+    margin: 0px 0px 0px 15px;
+    color: #000;
+}
+.top-header .social-icons li a .fa{
+    margin: 0px 5px 0px 0px;
+}
+.top-header .social-icons li a:hover,
+.top-header .social-icons li a:focus {
+    color: #c3360b;
+    transition:1s case-in;
+}
+
+.header-section .isStuck{
+    left: 0px;
+    width: 100%;
+    background: #08c;
+}
+.header-section .isStuck .navbar-nav .nav-item .nav-link{
+    color: #fff;
+}
+.header-section .navbar-wrapper{
+    width: 100%;
+    margin-top: 0px;
+    position: relative;
+    z-index: 15;
+    background: #4e5c6c;
+}
+
+
+
+.main-menu{
+    width: 100%;
+    padding: 20px 0px ;
+
+}
+
+.main-menu .navbar-nav .nav-item .nav-link{
+
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: upercase;
+    margin: 0px 0px 0px 40px;
+    color: #000;
+    
+
+}
+
+.main-menu .navbar-nav .nav-item .nav-link:hover,
+.main-menu .navbar-nav .nav-item .nav-link:focus{
+    color: #c3360b;
+    transition: 1s case-in;
+
+}
+
+.main-menu .fa-search{
+    font-size: 14px;
+    font-weight: 700;
+    color: #506a85;
+}
+
+.slider {
+    width: 100%;
+}
+
+.slider .carousel-inner .carousel-item {
+    width: 100%;
+}
+
+.slider .carousel-inner .carousel-item .carousel-caption {
+
+    text-align: left;
+
+}
+
+.slider .carousel-inner .carousel-item .carousel-caption h2 {
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #fffcf4;
+    padding: 120px 0px;
+}
+
+.slider .carousel-inner .carousel-item .carousel-caption p {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #fffcf4;
+    margin: 30px 0px;
+}
+
+.slider .carousel-inner .carousel-item .carousel-caption .btn-success {
+    padding: 5px 15px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 2px;
+    color: #fffcf4;
+    background: #c3360b;
+    border: 1px solid #c3360b;
+    transition: 1s;
+}
+
+.slider .carousel-inner .carousel-item .carousel-caption .btn-success:hover,
+.slider .carousel-inner .carousel-item .carousel-caption .btn-success:focus {
+    color: #c3360b;
+    background: transparent;
+    border: 1px solid #c3360b;
+}
+
+
+.articles {
+    width: 100%;
+    background: #fffcf4;
+    padding: 80px 0px;
+}
+
+.articles h3 {
+    font-size: 26px;
+    line-height: 36px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.articles p {
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 500;
+    color: #000;
+}
+
+.articles .row .col-lg-2 {
+    padding: 50px 0px;
+}
+
+.articles .row .btn-success {
+    padding: 5px 10px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #fffcf4;
+    background: #c3360b;
+    border: 1px solid #c3360b;
+    transition: 1s;
+}
+
+.articles .row .btn-success:hover,
+.articles .row .btn-success:focus {
+    color: #c3360b;
+    background: transparent;
+    border: 1px solid #c3360b;
+}
+
+
+.feature {
+    width: 100%;
+    padding: 80px 0px;
+    background: #c3360b;
+}
+
+.feature .feature-title {
+    width: 100%;
+    padding: 0px 0px 40px;
+    text-align: center;
+}
+
+.feature .feature-title h2 {
+    font-size: 40px;
+    line-height: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fffcf4;
+    margin: 15px 0px;
+}
+
+.feature .feature-title p {
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 300;
+    color: #fffcf4;
+    margin: 15px 0px;
+}
+
+.feature .row .col-lg-6 {
+    padding: 5px 10px;
+}
+
+.feature .row .col-lg-6 h5 {
+
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #fffcf4;
+    margin: 5px 0px;
+}
+
+.feature .row .col-lg-6 p {
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 300;
+    color: #fffcf4;
+    margin: 5px 0px;
+}
+
+.feature .awsome-feature .row .col-lg-6 .col-md-2 {
+    padding: 5px 5px;
+}
+
+
+.about-us {
+    width: 100%;
+    background: #fffcf4;
+    padding: 40px 0px;
+}
+
+.about-us .about-title {
+    width: 100%;
+    padding: 40px 0px;
+    text-align: center;
+}
+
+.about-us .about-title h3 {
+    font-size: 28px;
+    line-height: 38px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #c3360b;
+}
+
+.about-us .about-title p {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #242422;
+    padding: 10px 0px;
+}
+
+.about-us .company h3 {
+    font-size: 28px;
+    line-height: 38px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.about-us .company p {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #a3a19c;
+}
+
+.about-us .company .btn-success {
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 2px;
+    color: #fffcf4;
+    background: #c3360b;
+    border: 1px solid #c3360b;
+    transition: 1s;
+}
+
+.about-us .company .btn-success:hover,
+.about-us .company .btn-success:focus {
+    color: #c3360b;
+    background: transparent;
+    border: 1px solid #c3360b;
+}
+
+.about-us .inner-image {
+    padding: 0px 100px;
+}
+
+
+.services {
+    width: 100%;
+    padding: 40px 0px;
+    background: #fdfdfa;
+}
+
+.services .services-title {
+    width: 100%;
+    padding: 40px 0px;
+    text-align: center;
+}
+
+.services .services-title h2 {
+    font-size: 40px;
+    line-height: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #c3360b;
+}
+
+.services .services-title p {
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 500;
+    color: #000;
+    padding: 30px 0px;
+}
+
+.services .row .col-lg-6 {
+    padding: 5px 10px;
+}
+
+.services .row .col-lg-6 h5 {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #242422;
+    margin: 5px 0px;
+}
+
+.services .row .col-lg-6 .col-md-10 p {
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 300;
+    color: #000;
+    margin: 5px 0px;
+}
+
+.services .row .col-lg-6 .col-md-2 {
+    padding: 5px 5px;
+}
+
+
+.portfolio {
+    width: 100%;
+    padding: 40px 0px;
+    background: #000;
+}
+
+.portfolio .portfolio-title {
+    width: 100%;
+    padding: 40px 0px;
+    text-align: center;
+}
+
+.portfolio .portfolio-title h2 {
+    font-size: 40px;
+    line-height: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #c3360b;
+}
+
+.portfolio .portfolio-title p {
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 300;
+    color: #fff;
+    padding: 20px 0px;
+}
+
+.portfolio .inner-image {
+    padding: 15px 0px 0px;
+}
+
+/* fun-fact css start */
+.fun-fact{
+    width: 100%;
+    padding: 80px 0px;
+    background: #eee;
+
+}
+
+.fun-fact .inner-fun{
+    width: 100%;
+    padding: 40px;
+    text-align: center;
+    border: 2px solid #08c;
+}
+
+.inner-fun .fa{
+    font-size: 110px;
+    color: #506a85;
+    margin: 0px 0px 20px;
+}
+
+.inner-fun .tonoy{
+    font-size: 80px;
+    font-weight: 300;
+    color: #08c;
+}
+.inner-fun h4{
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #000;
+}
+
+.team {
+    width: 100%;
+    background: #fffcf4;
+    padding: 40px 0px;
+}
+
+.team .team-title {
+    width: 100%;
+    padding: 40px 0px;
+    text-align: center;
+}
+
+.team .team-title h2 {
+    font-size: 26px;
+    line-height: 36px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #c3360b;
+    padding: 20px 0px;
+}
+
+.team .team-title p {
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 500;
+    color: #000;
+    margin: 0px 10px;
+}
+
+.team .inner-image {
+    text-align: center;
+    padding: 12px 5px;
+    border: 1px solid #e7e6e3;
+}
+
+.team .inner-image h4 {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #000;
+    padding: 15px 0px 0px;
+}
+
+.team .inner-image p {
+    font-size: 12px;
+    line-height: 22px;
+    color: #242422;
+    margin: 5px 0px;
+}
+
+.team .inner-image span {
+    display: block;
+}
+
+.team .inner-image span .fa {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+    padding: 3px 3px;
+    margin: 0px 2px;
+    background: #b8b7b2;
+    color: #000;
+    border: 2px solid #b8b7b2;
+    border-radius: 100%;
+    transition: 1s;
+}
+
+.team .inner-image span .fa:hover,
+.team .inner-image span .fa:focus {
+
+    color: ##000;
+    background:transparent;
+    border-radius: 100%;
+    transition: 1s case-in;
+
+}
+
+.contact {
+    width: 100%;
+    padding: 40px 0px;
+    background: #fdfdfa;
+    ;
+}
+
+.contact .contact-title {
+    width: 100%;
+    padding: 40px 0px;
+    text-align: center;
+}
+
+.contact .contact-title h3 {
+    font-size: 26px;
+    line-height: 36px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #c3360b;
+}
+
+.contact .contact-title p {
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 500;
+    color: #242422;
+    padding: 10px 0px;
+}
+
+.contact .contact-address h4 {
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 300;
+    margin: 0px 0px;
+    color: #000;
+}
+
+.contact .contact-address h5 {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #000;
+}
+
+.contact .contact-info {
+    list-style: none;
+    padding: 0px 0px;
+}
+
+.contact .contact-info li a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+}
+
+.contact .contact-form .btn-success {
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 2px;
+    color: #fffcf4;
+    background: #c3360b;
+    border: 1px solid #c3360b;
+    transition: 1s;
+}
+
+.contact .contact-form .btn-success:hover,
+.contact .contact-form .btn-success:focus {
+    color: #c3360b;
+    background: transparent;
+    border: 1px solid #c3360b;
+}
+
+.owl .owl-carousel{
+    width: 100%;
+    padding: 80px 0px 0px;
+
+
+}
+.owl .owl-carousel .owl-nav.disabled+.owl-dots{
+    margin-top: 40px;
+}
+
+.owl .owl-theme .owl-dots .owl-dot.active span,.latest-work .owl-theme .owl-dots .owl-dot:hover span{
+    background: #00bc9c;
+
+}
+
+.owl .owl-theme .owl-dots .owl-dot span{
+    width: 15px;
+    height: 15px;
+    color: #506a85;
+}
+
+.footer {
+    width: 100%;
+    padding: 10px 0px;
+    background: #c3360b;
+}
+
+.footer .social-icons {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    text-align: right;
+}
+
+.footer .social-icons li {
+    list-style: none;
+    display: inline-block;
+}
+
+.footer .social-icons li a {
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+    margin: 0px 0px 0px 15px;
+}
+
+.footer .social-icons li a .fa {
+    margin: 0px 5px 0px 0px;
+}
+
+.footer .social-icons li a:hover,
+.footer .social-icons li a:focus {
+    color: #fff;
+    background: transparent;
+    transition: 1s case-in;
+}
